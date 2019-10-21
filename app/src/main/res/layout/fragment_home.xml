@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/gedung1"-->
+<!--            android:layout_width="140dp"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:src="@drawable/dome"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/guideline2"-->
+<!--            tools:layout_editor_absoluteX="16dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textHome1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--        android:text="DOME UMM"-->
+<!--            app:layout_constraintStart_toEndOf="@id/gedung1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/guideline2"-->
+<!--            android:textSize="25sp"-->
+<!--        />-->
+<!--        <TextView-->
+<!--            android:id="@+id/textHome2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:text="Jl. Karyawiguna No.90, Malang"-->
+<!--            app:layout_constraintStart_toEndOf="@id/gedung1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/textHome1"-->
+<!--            android:textSize="15sp"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/gedung2"-->
+<!--            android:layout_width="140dp"-->
+<!--            android:layout_height="140dp"-->
+<!--            android:src="@drawable/gracak"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/gedung1"-->
+<!--            tools:layout_editor_absoluteX="16dp" />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/textHome3"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="95dp"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:text="GRAHA CAKRAWALA"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toEndOf="@id/gedung2"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/textHome2"-->
+<!--            android:textSize="25sp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="15dp"-->
+<!--            android:text="Jl. Ambarawa No.5,, Malang"-->
+<!--            app:layout_constraintStart_toEndOf="@id/gedung1"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/textHome3"-->
+<!--            android:textSize="15sp"-->
+<!--            />-->
+<!--        <androidx.constraintlayout.widget.Guideline-->
+<!--            android:id="@+id/guideline2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal"-->
+<!--            app:layout_constraintGuide_percent="0.10123119" />-->
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+        <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:autoStart="true"
+        android:id="@+id/v_flipper"
+            android:flipInterval="3000"
+        >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/gracak"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/dome"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/sasbud"
+                />
+        </ViewFlipper>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            >
+            <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/dome"
+            android:layout_marginTop="200dp"
+            />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="240dp"
+                android:layout_marginLeft="20dp"
+                android:text="DOME UMM Jl. Tegalgondo"
+                android:textColor="@color/dark"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
