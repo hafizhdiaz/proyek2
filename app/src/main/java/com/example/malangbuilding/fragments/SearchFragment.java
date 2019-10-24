@@ -19,8 +19,8 @@ import com.example.malangbuilding.R;
  */
 public class SearchFragment extends Fragment implements AdapterView.OnItemSelectedListener {
 
-    private String[] spinner_array1 = {"< 5.000.000", "5.000.000 - 10.000.000", "Konghuchu", "Hindu", "Budha"};
-    private String[] spinner_array2 = {"< 500", "500 - 1000", "10.000 - 20.000", "Hindu", "Budha"};
+    private String[] spinner_array1 = {"--- Pilih ---", "Kurang dari 5.000.000", "5.100.000 - 7.000.000", "7.100.000 - 13.000.000", "Lebih dari 13.000.000"};
+    private String[] spinner_array2 = {"--- Pilih ---", "Kurang dari 500", "501 - 1000", "1001 - 10.000", "10.001 - 20.000"};
     private String Selected;
 
     private Spinner spinner;
