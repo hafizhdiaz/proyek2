@@ -1,34 +1,42 @@
 {
   "project_info": {
-    "project_number": "132522567711",
-    "firebase_url": "https://malang-building-1301.firebaseio.com",
-    "project_id": "malang-building-1301",
-    "storage_bucket": "malang-building-1301.appspot.com"
+    "project_number": "734408484373",
+    "firebase_url": "https://malangbuilding.firebaseio.com",
+    "project_id": "malangbuilding",
+    "storage_bucket": "malangbuilding.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:132522567711:android:6704aef0ab5d016fa30d2a",
+        "mobilesdk_app_id": "1:734408484373:android:670c12796209cf1543101c",
         "android_client_info": {
           "package_name": "com.example.malangbuilding"
         }
       },
       "oauth_client": [
         {
-          "client_id": "132522567711-8j3kotm21d6u7b2or7kpcncbetd7gvji.apps.googleusercontent.com",
+          "client_id": "734408484373-aulo22su3lqioshv3ic2thmaaof274a8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.malangbuilding",
+            "certificate_hash": "a904a6219c6eccc8fa4e10711fc11f7ef389f2d9"
+          }
+        },
+        {
+          "client_id": "734408484373-dpn3ealc2ajbugivsq5d0cmhlrjdcguv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCWpHXpTZQ-kKF_lqD8o5uSnmmzwLmuI0o"
+          "current_key": "AIzaSyAA1FVqqexQwHEI-NuHIO_shlFKkdVyoBk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "132522567711-8j3kotm21d6u7b2or7kpcncbetd7gvji.apps.googleusercontent.com",
+              "client_id": "734408484373-dpn3ealc2ajbugivsq5d0cmhlrjdcguv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
